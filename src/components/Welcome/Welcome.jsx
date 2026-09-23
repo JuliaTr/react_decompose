@@ -1,5 +1,5 @@
 // import a css file containig welcome styles
-import './Welcome.scss';
+import './Welcome.css';
 
 // Create a Welcome function returning the HTML of welcome block
 export const Welcome = () => {
