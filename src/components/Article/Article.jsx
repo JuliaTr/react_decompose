@@ -1,11 +1,12 @@
 // import a css file containig article styles
-import './Article.scss';
+import './Article.css';
 
 // Create an Article function returning the HTML of article block
 export const Article = () => {
   return (
     <article className="article">
       <h2 className="article__title">Headline</h2>
+
       <p className="article__paragraph">
         In elementum lorem eget est euismod ornare. Phasellus sit amet
         pellentesque mauris. Aliquam quis malesuada ex. Nullam eu aliquam nibh.
@@ -20,6 +21,7 @@ export const Article = () => {
         felis. Vivamus ut nunc id mauris posuere pellentesque. Praesent
         tincidunt id odio id feugiat.
       </p>
+
       <p className="article__paragraph">
         In ac nisi lacus. Fusce est dolor, tincidunt ut bibendum vitae,
         fermentum ac quam. Aliquam pretium tristique nibh quis iaculis. In et
@@ -28,6 +30,7 @@ export const Article = () => {
         molestie. Morbi lacinia, sapien eu dictum dignissim, tellus tortor
         congue magna, sit amet bibendum libero nisi id massa.
       </p>
+
       <p className="article__paragraph">
         Donec arcu elit, euismod vel lobortis eu, fringilla sit amet dolor. Cras
         congue, massa nec sagittis mollis, dui felis ultrices magna, tincidunt
@@ -39,6 +42,7 @@ export const Article = () => {
         consectetur. Fusce placerat ac ipsum ac eleifend. Aenean quis faucibus
         ex.
       </p>
+
       <p className="article__paragraph">
         Cras egestas tempor nibh, a fermentum lorem sollicitudin non. Nulla
         facilisi. In at elit id leo tristique condimentum. Donec at est nulla.
@@ -48,6 +52,7 @@ export const Article = () => {
         blandit a vulputate at, vehicula non nulla. Aenean ut nulla leo.
         Praesent in ullamcorper est.
       </p>
+
       <p className="article__paragraph">
         Pellentesque habitant morbi tristique senectus et netus et malesuada
         fames ac turpis egestas. Phasellus bibendum nec arcu eu lobortis. Nam
